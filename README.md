@@ -1,1 +1,1 @@
-# StarCrusher-s-Interstellar-Parts
+# StarCrusher's Interstellar Parts (SCIP)
