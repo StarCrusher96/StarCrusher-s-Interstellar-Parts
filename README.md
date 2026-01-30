@@ -82,10 +82,10 @@ SCIP treats heat as a system-level problem rather than a side effect.
 
 ### Thermal Components
 
-| Part | Role | Notes |
-|----|------|------|
-| SCS “Spindrift” Radiator | Primary heat rejection | Large deployable wing radiators optimized for sustained fusion output. Intended to be used in multiples. |
-| Micrometeoroid Shield | Long-duration protection | Protects against micrometeoroids, thermal stress, and high-velocity debris during interstellar cruise. Can be jettisoned when no longer required. |
+| Part | Type | Role | Notes |
+|----|------|------|------|
+| SCS Spindrift Radiator | Deployable radiator | Primary heat rejection | Large wing-style radiators optimized for continuous fusion heat dissipation. Intended to be used in multiples. |
+| Micrometeoroid Shield | Structural protection | Long-duration survivability | Protects against micrometeoroids, thermal stress, and high-velocity debris during interstellar cruise. Jettisonable when no longer required. |
 
 Notes:
 - SRX engines assume active heat rejection.
