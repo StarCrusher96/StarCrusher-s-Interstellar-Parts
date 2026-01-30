@@ -29,8 +29,8 @@ These parts assume the player already understands spacecraft design.
 
 ## Installation
 
-1. Download the latest release from the Releases page  
-2. Extract the contents into your `GameData` folder  
+1. Download the latest release from the **[Releases page](https://github.com/StarCrusher96/StarCrusher-s-Interstellar-Parts/releases)**
+2. Extract/unzip the `SCIP` folder into your `GameData` folder  
 3. Ensure you are running **KSP 1.12.x**  
 4. Start the game  
 
