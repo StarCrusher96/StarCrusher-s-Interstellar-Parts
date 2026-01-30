@@ -34,11 +34,13 @@ Interstellar-rated CommNet components intended for distances where stock antenna
 
 All antennas in this pack are relay-capable.
 
-- IPD-R Ranger  
-- IPD-B Blinker  
-- IPD-M Megaphone  
-- IPD-T Telephone  
-- RA-NKA-S1  
+| Antenna      | Antenna Power | Effective Range (same antenna) | Tier               | Intended Role                                       |
+| ------------ | ------------- | ------------------------------ | ------------------ | --------------------------------------------------- |
+| RA-NKA-S1        | 1 × 10¹⁶      | 1 × 10¹⁶ m                     | Entry interstellar | Early interstellar probes, short-range stellar hops |
+| IPD-T Telephone | 5 × 10¹⁶      | 5 × 10¹⁶ m                     | Mid interstellar   | Reliable links to nearby star systems               |
+| IPD-M Megaphone    | 1 × 10¹⁷      | 1 × 10¹⁷ m                     | Baseline relay     | First dedicated interstellar relay backbone         |
+| IPD-B Blinker         | 1 × 10¹⁹      | 1 × 10¹⁹ m                     | Heavy relay        | Long-range interstellar infrastructure              |
+| IPD-R Ranger  | 6 × 10¹⁹      | 6 × 10¹⁹ m                     | Extreme relay      | Deep interstellar hubs and multi-system coverage    |
 
 ---
 
@@ -69,7 +71,7 @@ Fusion-based propulsion systems for interstellar transfer.
 
 ## Fuel and resources
 
-SCIP propulsion systems operate on Helium-based fusion fuel.
+SCIP propulsion systems operate on a fictional Helium-based fusion fuel.
 
 Fuel containers in this pack are designed specifically to support SRX engines.
 
@@ -100,7 +102,6 @@ Balance is still work in progress. This is not a tightly tuned parts pack, and i
 ## Relationship to KSS2
 
 SCIP is developed alongside Kerbal Star Systems 2, but is fully standalone.
-
 It can be used with KSS2 or independently in any save that requires interstellar-capable infrastructure.
 
 ---
