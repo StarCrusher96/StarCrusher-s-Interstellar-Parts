@@ -6,7 +6,7 @@
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
-SCIP is a standalone parts mod for Kerbal Space Program.
+SCIP is a simple standalone parts mod for Kerbal Space Program 1.
 
 The parts in this repository originate from Kerbal Star Systems 1 (2015–2018) and have been reworked, upgraded, and separated into a dedicated mod for continued use and maintenance.
 
