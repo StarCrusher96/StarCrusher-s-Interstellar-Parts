@@ -44,58 +44,97 @@ Interstellar-rated CommNet components intended for distances where stock antenna
 
 All antennas in this pack are relay-capable.
 
-| Antenna      | Antenna Power | Effective Range (same antenna) | Tier               | Intended Role                                       |
-| ------------ | ------------- | ------------------------------ | ------------------ | --------------------------------------------------- |
-| RA-NKA-S1        | 1 × 10¹⁶      | 1 × 10¹⁶ m                     | Entry interstellar | Early interstellar probes, short-range stellar hops |
-| IPD-T Telephone | 5 × 10¹⁶      | 5 × 10¹⁶ m                     | Mid interstellar   | Reliable links to nearby star systems               |
-| IPD-M Megaphone    | 1 × 10¹⁷      | 1 × 10¹⁷ m                     | Baseline relay     | First dedicated interstellar relay backbone         |
-| IPD-B Blinker         | 1 × 10¹⁹      | 1 × 10¹⁹ m                     | Heavy relay        | Long-range interstellar infrastructure              |
-| IPD-R Ranger  | 6 × 10¹⁹      | 6 × 10¹⁹ m                     | Extreme relay      | Deep interstellar hubs and multi-system coverage    |
+| Antenna      | Antenna Power | Tier               | Intended Role                                       |
+| ------------ | ------------- | ------------------ | --------------------------------------------------- |
+| RA-NKA-S1        | 1 × 10¹⁶      | Entry interstellar | Early interstellar probes, short-range stellar hops |
+| IPD-T Telephone | 5 × 10¹⁶      | Mid interstellar   | Reliable links to nearby star systems               |
+| IPD-M Megaphone    | 1 × 10¹⁷      | Baseline relay     | First dedicated interstellar relay backbone         |
+| IPD-B Blinker         | 1 × 10¹⁹      | Heavy relay        | Long-range interstellar infrastructure              |
+| IPD-R Ranger  | 6 × 10¹⁹      | Extreme relay      | Deep interstellar hubs and multi-system coverage    |
+
+Notes:
+- Even the smallest SCIP antenna exceeds stock interplanetary communication ranges.
+- Relay chaining is expected and strongly encouraged for long distances.
 
 ---
 
 ## Propulsion
 
-Fusion-based propulsion systems for interstellar transfer.
+SRX engines represent fusion-driven propulsion intended for interstellar transfer.  
+They trade efficiency and simplicity for sustained thrust, extreme power draw, and high thermal output.
 
-- SRX-L01 Wayfarer  
-  Primary interstellar engine for large vessels. Produces high heat output and requires significant radiator capacity.
+| Engine | Role | Scale | Notes |
+|------|------|-------|------|
+| SRX-L01 “Wayfarer” | Primary interstellar drive | Large | Designed to push entire vessels between stars. Produces extreme heat and requires substantial radiator capacity. |
+| SRX-S01 “Torchline” | Surface-to-space variant | Medium-Large | Intended for direct interstellar injection from gravity wells. Atmospheric operation limits effective cooling. |
+| SRX-Flux (Legacy) | Experimental / legacy | Medium | Preserved from early KSS-I era as a functional artifact and niche option. |
 
-- SRX-S01 Torchline  
-  Surface-to-space variant intended for direct interstellar injection. Cooling is limited during atmospheric operation.
-
-- SRX-Flux  
-  Legacy engine retained from early KSS-era experimentation.
+Notes:
+- SRX engines are **not** intended to be drop-in replacements for stock engines.
+- Heat management is a primary design constraint.
+- Continuous operation over long mission durations is assumed.
 
 ---
 
 ## Thermal control
 
-- SCS Spindrift radiator  
-  Large deployable radiators for sustained fusion heat rejection.
+SCIP treats heat as a system-level problem rather than a side effect.
 
-- Micrometeoroid shield  
-  Structural and thermal protection for long-duration missions. Can be jettisoned when no longer needed.
+### Thermal Components
+
+| Part | Role | Notes |
+|----|------|------|
+| SCS “Spindrift” Radiator | Primary heat rejection | Large deployable wing radiators optimized for sustained fusion output. Intended to be used in multiples. |
+| Micrometeoroid Shield | Long-duration protection | Protects against micrometeoroids, thermal stress, and high-velocity debris during interstellar cruise. Can be jettisoned when no longer required. |
+
+Notes:
+- SRX engines assume active heat rejection.
+- Radiator area scales with sustained thrust rather than short burns.
+- The micrometeoroid shield is optional but recommended for multi-year missions.
 
 ---
 
 ## Fuel and resources
 
 SCIP propulsion systems operate on a fictional Helium-based fusion fuel.
+Fuel tanks are designed specifically to support SRX engines and long-duration missions.
 
-Fuel containers in this pack are designed specifically to support SRX engines.
+### Helium Storage
 
-- PB-ISV01 Atlas  
-- PB-H750  
-- PB-H101  
-- Stratus-V radial container  
+| Tank | Form Factor | Intended Use |
+|----|-------------|--------------|
+| PB-ISV01 “Atlas” | Spherical | Large interstellar vessels and long-range missions |
+| PB-H750 | Inline | High-capacity inline storage |
+| PB-H101 | Inline | Mid-sized reinforced Helium tank |
+| Stratus-V Radial | Radial | Modular Helium storage for compact designs |
 
-### Resource collection
+Notes:
+- All tanks store Helium only.
+- No tank is intended to be self-sufficient without SRX-compatible propulsion.
+- Radial storage is intended for flexibility, not bulk capacity.
 
-- IPM-01 Sieve  
-  Collects trace Helium and other particles from atmospheres, exospheres, and the interstellar medium.
+## Resource Collection
 
-Collection rates are intentionally low and power requirements are high, making this suitable only for long-duration missions.
+### Interstellar Particle Scoop
+
+| Part | Function | Operating Environment | Design Intent |
+|----|----------|----------------------|---------------|
+| IPM-01 Sieve | Trace resource collection | Atmospheres, exospheres, interstellar medium | Low-rate, high-power collection intended for decades-long missions |
+
+Notes:
+- Collection rates are intentionally low.
+- Power requirements are high.
+- This system is not intended for rapid refueling or short missions.
+- Best used as a background sustainment system rather than a primary fuel source.
+
+---
+
+## Balance Notes
+
+- All SCIP parts are balanced relative to each other, not to stock parts.
+- Mass, cost, and output values are tuned for interstellar-scale gameplay.
+- Exact values may change as balance passes continue.
+- Additional variants and parts may be added in future releases.
 
 ---
 
