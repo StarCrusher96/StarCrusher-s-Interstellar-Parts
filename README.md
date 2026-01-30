@@ -60,8 +60,8 @@ Notes:
 
 ## Propulsion
 
-SRX engines represent fusion-driven propulsion intended for interstellar transfer.  
-They trade efficiency and simplicity for sustained thrust, extreme power draw, and high thermal output.
+SRX engines represent fusion-driven propulsion intended for interstellar transfer.
+They are based on advanced Helium-fusion concepts and trade efficiency and simplicity for sustained thrust, extreme power draw, and very high thermal output. Operating far beyond current real-world fusion capabilities, these engines require continuous heat rejection and are designed for long-duration interstellar missions rather than short, impulsive burns.
 
 | Engine | Role | Scale | Notes |
 |------|------|-------|------|
